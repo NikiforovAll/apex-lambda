@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "**/*-meta.xml": true,
+        "mdapipkg": true
+    }
+}
