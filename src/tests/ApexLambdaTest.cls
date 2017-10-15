@@ -38,6 +38,38 @@ private class ApexLambdaTest {
             field,
             ApexTypesEnum.decimalType
         );
+    }
 
+    @isTest
+    private static void pluck_test(){
+        List<Contact> records = new List<Contact>{
+        };
+        Schema.SObjectField field = Contact.LastName;
+        Object pluckedContacts;
+        pluckedContacts = ApexLambda.pluck(
+            records,
+            field,
+            ApexTypesEnum.stringType
+        );
+        pluckedContacts = ApexLambda.pluck(
+            records,
+            field,
+            ApexTypesEnum.dateType
+        );
+        pluckedContacts = ApexLambda.pluck(
+            records,
+            field,
+            ApexTypesEnum.booleanType
+        );
+        pluckedContacts = ApexLambda.pluck(
+            records,
+            field,
+            ApexTypesEnum.idType
+        );
+        pluckedContacts = ApexLambda.pluck(
+            records,
+            field,
+            ApexTypesEnum.decimalType
+        );
     }
 }

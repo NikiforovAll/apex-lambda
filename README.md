@@ -136,17 +136,16 @@ List<Account> accounts = new List<Account>{
 	new Account(Name = 'Bar')
 }
 // Names are plucked into a new list ['Foo', 'Bar']
-List<String> names = Pluck.strings(accounts, Account.Name);
+List<String> names = ApexLambda.pluck(accounts, Account.Name, ApexTypesEnum.stringType);
 ```
 
 | Modifier and type | Method | Description |
 |-------------------|--------|-------------|
-| List<Boolean> | booleans(List<SObject> records, Schema.SObjectField field) | Plucks booleans on `field` into a new list |
-| List<Date> | `dates(List<SObject> records, Schema.SObjectField field)` | Plucks dates on `field` into a new list |
-| List<Decimal> | `decimals(List<SObject> records, Schema.SObjectField field)` | Plucks numbers on `field` into a new list |
-| Set<Id> | `ids(List<SObject> records, Schema.SObjectField field)` | Plucks ids on `field` into a new set |
-| Set<Id> | `ids(List<SObject> records)` | Plucks ids on `Id` field into a new set |
-| List<String> | `strings(List<SObject> records, Schema.SObjectField field)` | Plucks strings or ids on `field` into a new list |
+| List<Boolean> | pluck(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.BooleanType type) | Plucks booleans on `field` into a new list |
+| List<Date> | `pluck(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.DateType type)` | Plucks dates on `field` into a new list |
+| List<Decimal> | `pluck(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.DecimalType type)` | Plucks numbers on `field` into a new list |
+| Set<Id> | `pluck(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.IdType type)` | Plucks ids on `field` into a new set |
+| List<String> | `pluck(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.StringType type)` | Plucks strings or ids on `field` into a new list |
 
 ### Important notes on the type system in Apex
 <a name="type-system"></a>
@@ -182,11 +181,8 @@ Boolean isOpportunities = accounts instanceof List<Opportunity>;
 `Filter` and `GroupBy` therefore provide overloaded methods in which the concrete type of the list can be passed in as well. When this is done, the returned `List` or `Map` are of the correct concrete type instead of generic `SObject` collection type:
 
 ```java
-List<Account> filteredAccounts = Filter.field(...).apply(allAccounts, List<Account>.class);
+List<Account> filteredAccounts = ApexLambda.filter(...).apply(allAccounts, List<Account>.class);
 // List<Account> returned!
-
-Map<String, List<Account>> accountsByName = GroupBy.strings(allAccounts, Account.Name, List<Account>.class);
-// Map<String, List<Account>> returned!
 ```
 
 ## Utilities
