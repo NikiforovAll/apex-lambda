@@ -1,0 +1,864 @@
+[
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1507994315230,
+            "changeTime": 1507994315230,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1507994315230,
+            "changeTime": 1507994315230,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1507994918805,
+            "changeTime": 1507994918805,
+            "contentHash": "78dd78c06e81fd7afb457ecdb5af8fae5546e0a3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/aura",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/aura",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1507994315230,
+            "changeTime": 1507994315230,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1508070504767,
+            "changeTime": 1508069148553,
+            "contentHash": "27bca28faabeb84eacb79e2b1c8945f239d4fa60",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexLambda.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexLambda.cls",
+            "isDirectory": false,
+            "size": 1362,
+            "modifiedTime": 1508071480789,
+            "changeTime": 1508071480789,
+            "contentHash": "aeb0f5d4de9c1e7071e09a9ee3411191997d417a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexLambda.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexLambda.cls-meta.xml",
+            "isDirectory": false,
+            "size": 188,
+            "modifiedTime": 1507994918849,
+            "changeTime": 1507994918849,
+            "contentHash": "88864d8ca73613052613a4814884bc85e140c06f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexLambdaTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexLambdaTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1061,
+            "modifiedTime": 1508071884021,
+            "changeTime": 1508071884021,
+            "isWorkspace": false,
+            "contentHash": "5d7ebb2bc9bbe943c053c3f4b5b9793cdbaf3d7c"
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexLambdaTest.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexLambdaTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1508067030423,
+            "changeTime": 1508067030423,
+            "contentHash": "7bd567bffced1a68df34c11e92b370ae51d4d8d3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexString.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexString.cls",
+            "isDirectory": false,
+            "size": 1902,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "928bdd74a5bd0a691255ce811e247c66a325cde3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexString.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexString.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexStringTest.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexStringTest.cls",
+            "isDirectory": false,
+            "size": 3452,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "629a540190f663588828ebff6aa7c1de50331ad7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexStringTest.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexStringTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Comparison.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Comparison.cls",
+            "isDirectory": false,
+            "size": 133,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "1745bbc8234efe5d46095b38044d8c28083ebd07",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Comparison.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Comparison.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "98b9c8b4ae7319e23b2012b692d6b67ad126a3ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Criterium.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Criterium.cls",
+            "isDirectory": false,
+            "size": 283,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b61c66096e47b41f239b5182af68517fb0f1340c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Criterium.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Criterium.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "98b9c8b4ae7319e23b2012b692d6b67ad126a3ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FieldFilterQuery.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FieldFilterQuery.cls",
+            "isDirectory": false,
+            "size": 3269,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "ae88e0b7ffb1120ba47db7168d65a95c9881889d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FieldFilterQuery.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FieldFilterQuery.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "05c18a0ab55f441b30bbc2451179237979dbf300",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FieldFilterQueryElement.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FieldFilterQueryElement.cls",
+            "isDirectory": false,
+            "size": 2715,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "2eb5a6c40f5fb7d3854bc6bea082c0959bcd0e11",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FieldFilterQueryElement.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FieldFilterQueryElement.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "05c18a0ab55f441b30bbc2451179237979dbf300",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Filter.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Filter.cls",
+            "isDirectory": false,
+            "size": 551,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "8319fb726a6a2e548b7007ffd71d53c5b03bb0f6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Filter.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Filter.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "98b9c8b4ae7319e23b2012b692d6b67ad126a3ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterQuery.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterQuery.cls",
+            "isDirectory": false,
+            "size": 1654,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "3929992c50fdd1c6bf896512afd0ca297cde99c8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterQuery.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterQuery.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "98b9c8b4ae7319e23b2012b692d6b67ad126a3ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterResult.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterResult.cls",
+            "isDirectory": false,
+            "size": 349,
+            "modifiedTime": 1507995503839,
+            "changeTime": 1507995503839,
+            "contentHash": "059fdc3d5ad285e1329c2f2f99d9cee4e94ed915",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterResult.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterResult.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterResultIterator.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterResultIterator.cls",
+            "isDirectory": false,
+            "size": 727,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "90f98e4d0dc67c7348e2249a83750cdde82dbf9c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterResultIterator.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterResultIterator.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterTest.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterTest.cls",
+            "isDirectory": false,
+            "size": 9211,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "d7f6515c3bb81edc38e7dbe73d3eecc5e698911e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterTest.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/FilterTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "98b9c8b4ae7319e23b2012b692d6b67ad126a3ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/GroupBy.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/GroupBy.cls",
+            "isDirectory": false,
+            "size": 2893,
+            "modifiedTime": 1508070504767,
+            "changeTime": 1508070504767,
+            "contentHash": "ab12ca594dc1def5a6a8e57c5bc8118debd412f2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/GroupBy.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/GroupBy.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/GroupByTest.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/GroupByTest.cls",
+            "isDirectory": false,
+            "size": 3980,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "7720bb637c918eb2febc13a0dda878157658c142",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/GroupByTest.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/GroupByTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/LambdaException.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/LambdaException.cls",
+            "isDirectory": false,
+            "size": 49,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "16b9927af10c87900c816fdbeb1e8863d63f2d84",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/LambdaException.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/LambdaException.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/MatchingFilterQuery.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/MatchingFilterQuery.cls",
+            "isDirectory": false,
+            "size": 879,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "c2276d5c04b3bb307951718cb3d1807cbcd57a1c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/MatchingFilterQuery.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/MatchingFilterQuery.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "98b9c8b4ae7319e23b2012b692d6b67ad126a3ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Optional.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Optional.cls",
+            "isDirectory": false,
+            "size": 1290,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "496b43be413a124e1c5818a6cc4a1961cccf2e19",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Optional.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Optional.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/OptionalTest.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/OptionalTest.cls",
+            "isDirectory": false,
+            "size": 1057,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "db26645c81e73a61d58e5cd62b7a01348cf7d2e8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/OptionalTest.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/OptionalTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Pluck.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Pluck.cls",
+            "isDirectory": false,
+            "size": 1318,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "7647c455ee3263bbd3e06d9c0f2dc3465e4b5b3b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Pluck.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/Pluck.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PluckTest.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PluckTest.cls",
+            "isDirectory": false,
+            "size": 3109,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "f62595a8139f49cd98f0d7db6fa2afcc12fe00a1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PluckTest.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PluckTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PrimitiveComparer.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PrimitiveComparer.cls",
+            "isDirectory": false,
+            "size": 3608,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "c1b214a475bc9d614120cda10c3048d14e0e60bf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PrimitiveComparer.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PrimitiveComparer.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "98b9c8b4ae7319e23b2012b692d6b67ad126a3ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PrimitiveComparerTest.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PrimitiveComparerTest.cls",
+            "isDirectory": false,
+            "size": 4203,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "3631ff1ab4acc6c63236ad51cd4618eaf18921cb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PrimitiveComparerTest.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/PrimitiveComparerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "98b9c8b4ae7319e23b2012b692d6b67ad126a3ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/TestUtility.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/TestUtility.cls",
+            "isDirectory": false,
+            "size": 662,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "02c8565bab4b680ef70764efc77e3efb569523a5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/TestUtility.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/TestUtility.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/TokenCriterium.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/TokenCriterium.cls",
+            "isDirectory": false,
+            "size": 330,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "92004ecf292165225671925ff6bb9e4c69cfda53",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/TokenCriterium.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/TokenCriterium.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1507995180512,
+            "changeTime": 1507995180512,
+            "contentHash": "98b9c8b4ae7319e23b2012b692d6b67ad126a3ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1507995301326,
+            "changeTime": 1507995301326,
+            "contentHash": "22a9cf1c92db383bc46bf6b99d4eefc8a1959e64",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexTypesEnum.cls",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexTypesEnum.cls",
+            "isDirectory": false,
+            "size": 1184,
+            "modifiedTime": 1508071281749,
+            "changeTime": 1508071281749,
+            "contentHash": "3cc8c2c2a0cd8b0353af63d300ef023edec822a0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexTypesEnum.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexey/Nikiforov/Salesforce-HYS/sfdx/apexlambda/src/main/default/classes/ApexTypesEnum.cls-meta.xml",
+            "isDirectory": false,
+            "size": 191,
+            "modifiedTime": 1508069148553,
+            "changeTime": 1508069148553,
+            "contentHash": "8a12333391b0c8a2f9d1c0e6adc96b0199a54cbd",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ]
+]

@@ -24,8 +24,8 @@ Lambda brings functional programming to Salesforce!
 
 | Modifier and type | Method | Description |
 |-------------------|--------|-------------|
-| `static MatchingFilterQuery` 		| `match(SObject prototype)` 			| Constructs and returns an object matching query against the `prototype` |
-| `static FieldFilterQueryElement` 	| `field(Schema.SObjectField field)` 	| Constructs and returns a field matching filter starting with `field` |
+| `static MatchingFilterQuery` 		| `filter(SObject prototype)` 			| Constructs and returns an object matching query against the `prototype` |
+| `static FieldFilterQueryElement` 	| `filter(Schema.SObjectField field)` 	| Constructs and returns a field matching filter starting with `field` |
 
 
 #### Object matching filter
@@ -36,12 +36,12 @@ Account prototype = new Account(
     AnnualRevenue = 50000000
 );
 // Accounts named 'Test' with an AnnualRevenue of **exactly** 50,000,000 are matched
-List<Account> filtered = Filter.match(prototype).apply(accounts);
+List<Account> filtered = ApexLambda.filter(prototype).apply(accounts);
 ```
 
 Matches list records against a “prototype” object. A list record is a match if all the fields which are defined on the prototype object are equal to those on the list record.
 
-`Filter.match(SObject prototype)` returns a `MatchingFilterQuery` which provides methods to match the filter against a list.
+`ApexLambda.filter(SObject prototype)` returns a `MatchingFilterQuery` which provides methods to match the filter against a list.
 
 | Modifier and type | Method | Description |
 |-------------------|--------|-------------|
@@ -57,7 +57,7 @@ Matches against field criteria.
 
 ```java
 // Accounts named 'Test' are matched
-List<Account> testAccounts = Filter.field(Account.Name).equals('Test').apply(accounts);
+List<Account> testAccounts = ApexLambda.filter(Account.Name).equals('Test').apply(accounts);
 ```
 
 Multiple criteria can be stringed together with `also` to form the full matching query. Records have to match *all*	 criteria.
@@ -110,32 +110,20 @@ Filtering query is dynamic and cannot be type-checked at compile-time.
 Groups objects by values on a specified field.
 
 ```java
-Map<String, List<Opportunity>> opportunitiesByCloseDate = GroupBy.strings(opportunities, Opportunity.CloseDate);
+Map<String, List<Opportunity>> opportunitiesByCloseDate = ApexLambda.groupBy(opportunities, Opportunity.CloseDate, ApexTypesEnum.stringType);
 ```
 
 | Modifier and type | Method | Description |
 |-------------------|--------|-------------|
-| Map<Boolean, List<SObject>> | `booleans(List<SObject> records, Schema.SObjectField field)` | Groups `records` by value on boolean `field` |
-| Map<Boolean, List<SObject>> | `booleans(List<SObject> records, Schema.SObjectField field, Type listType)` | Groups `records` by value on boolean `field` as `listType` |
-| Map<Date, List<SObject>> | `dates(List<SObject> records, Schema.SObjectField field)` | Groups `records` by value on date `field` |
-| Map<Date, List<SObject>> | `dates(List<SObject> records, Schema.SObjectField field, Type listType)` | Groups `records` by value on date `field` as `listType` |
-| Map<Decimal, List<SObject>> | `decimals(List<SObject>, Schema.SObjectField field)` | Groups `records` by value on number `field` |
-| Map<Decimal, List<SObject>> | `decimals(List<SObject>, Schema.SObjectField field, Type listType)` | Groups `records` by value on number `field` as `listType` |
-| Map<Id, List<SObject>> | `ids(List<SObject>, Schema.SObjectField field)` | Groups `records` by value on id `field` |
-| Map<Id, List<SObject>> | `ids(List<SObject>, Schema.SObjectField field, Type listType)` | Groups `records` by value on id `field` as `listType` |
-| Map<String, List<SObject>> | `strings(List<SObject>, Schema.SObjectField field)` | Groups `records` by value on string `field` |
-| Map<String, List<SObject>> | `strings(List<SObject>, Schema.SObjectField field, Type listType)` | Groups `records` by value on string `field` as `listType` |
+| Map<Boolean, List<SObject>> | `groupBy(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.BooleanType type)` | Groups `records` by value on boolean `field` |
+| Map<Date, List<SObject>> | `groupBy(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.DateType type)` | Groups `records` by value on date `field` |
+| Map<Decimal, List<SObject>> | `groupBy(List<SObject>, Schema.SObjectField field, ApexTypesEnum.DecimalType type)` | Groups `records` by value on number `field` |
+| Map<Id, List<SObject>> | `groupBy(List<SObject>, Schema.SObjectField field, ApexTypesEnum.IdType type)` | Groups `records` by value on id `field` |
+| Map<String, List<SObject>> | `groupBy(List<SObject>, Schema.SObjectField field, ApexTypesEnum.StringType type)` | Groups `records` by value on string `field` |
 
 #### Warning :warning:
 
 **The type system will NOT warn you if you use the wrong subtype of `sObject`!** [Important notes on the type system in Apex](#type-system) section explains why.
-
-```java
-// this compiles
-Map<String, List<Account>> accountsByName = GroupBy.strings(accounts, Account.Name);
-// this compiles as well!!!???
-Map<String, List<Opportunity>> accountsByName = GroupBy.strings(accounts, Account.Name);
-```
 
 ### `Pluck`
 <a name="pluck"></a>
