@@ -2,6 +2,8 @@
 
 Lambda brings functional programming to Salesforce!
 
+## Getting Started 
+[![Deploy](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com/)
 ## Functionality
 
 - [List manipulation](#list-manipulation)
