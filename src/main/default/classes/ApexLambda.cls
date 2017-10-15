@@ -46,4 +46,23 @@ public class ApexLambda {
         return GroupBy.decimals(records, field);
     }
 
+    public static List<Boolean> pluck(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.BooleanType type){
+        return Pluck.booleans(records, field);
+    }
+
+    public static List<String> pluck(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.StringType type){
+        return Pluck.strings(records, field);
+    }
+
+    public static List<Decimal> pluck(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.DecimalType type){
+        return Pluck.decimals(records, field);
+    }
+
+    public static List<Date> pluck(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.DateType type){
+        return Pluck.dates(records, field);
+    }
+
+    public static Set<Id> pluck(List<SObject> records, Schema.SObjectField field, ApexTypesEnum.IdType type){
+        return Pluck.ids(records, field);
+    }
 }
